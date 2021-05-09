@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(235, 235, 235);
+}
+
+.container{
+    margin: 0 20px;
+}
+
+.logo{
+    float: right;
+}
+
+.signup{
+    display: block;
+    float: right;
+}
+
+.signup a{
+    line-height: 60px;
+    padding: 0 25px;
+    margin: 0 5px;
+    color: rgb(128, 127, 127);
+    /* background-color: blueviolet; */
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.signup a:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.contents-atas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+
+    background-image: url(../asset/backgrounds.jpeg);
+    background-size: 100%;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    color:#000000;
+
+    text-align: center;
+}
+
+.contents-atas-teks{
+    margin-top: 40px;
+}
